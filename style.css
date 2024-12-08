@@ -1,0 +1,121 @@
+/* CSS Style Document ********************************************************************************************************************/
+/* ?Imports ***************************/
+/* Fonts */
+@import url("https://use.typekit.net/wie4sja.css");
+
+/* ?Defaults **************************/
+html,
+button,
+label {
+  font-family: "bookmania", serif;
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
+}
+
+/* ?Structure *************************/
+body {
+  margin: 0;
+  height: 100vh;
+}
+
+/* BODY ****************/
+/* Canvas Section */
+.canvas-section {
+  height: 80vh;
+  position: relative;
+}
+
+/* Canvas */
+canvas {
+  background-color: black;
+}
+
+/* Welcome Text */
+.welcome-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+h1,
+h2,
+h3 {
+  color: white;
+  margin: 10px 0;
+  letter-spacing: 6px;
+  margin: 0;
+}
+
+h1 {
+  font-size: 5em;
+}
+
+h2 {
+  font-size: 4em;
+}
+
+h3 {
+  color: #555354;
+}
+
+/* Settings Section */
+.settings-section {
+  height: 15vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+/* Input Button */
+.settings {
+  width: 100px;
+  margin: 0 20px;
+  border: 2px solid #555354;
+  background-color: #55535400;
+  color: #555354;
+}
+
+.settings:hover {
+  border: 2px solid #55535400;
+  background-color: #555354;
+  color: white;
+}
+
+.settings-buttons {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  align-content: center;
+}
+
+/* Buttons */
+.buttons-section {
+  display: flex;
+  flex-direction: column;
+}
+
+button {
+  width: 200px;
+  height: 40px;
+  margin: 10px 0;
+  border-radius: 20px;
+  border: 2px solid #55535400;
+  background-color: #555354;
+  font-size: large;
+  color: white;
+  padding: 6px 0;
+}
+
+button:hover {
+  cursor: pointer;
+  border: 2px solid #555354;
+  background-color: white;
+  color: #555354;
+}
+
+/* FOOTER **************/
+footer {
+  font-size: smaller;
+}
